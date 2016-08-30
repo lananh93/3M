@@ -1,0 +1,97 @@
+#wrapper {
+    height: auto;
+
+}
+#sideBar{
+    padding-top: 0px;
+    top: 2px;
+    left: 2px;
+    margin-top: 35px;
+    height: 0px;
+    width: 100%;
+    position : fixed;
+}
+#newproject{
+    padding-top: 6px;
+    top: 10px;
+    right: 7px;
+    margin-top: 138px;
+    width: 13.2%;
+    /*    position : fixed;*/
+}
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+#buttonWrapper {
+    margin-top: 100px;
+    padding-top: 10px;
+    top: 30px;
+    left: 2px;
+    height: 0px;
+    width: 100%;
+    float: left;
+    position : fixed;
+    /* background: #9ACD32;*/
+
+}
+
+.btn {
+    width: 13.2%;
+}
+#canvas{
+    margin-top: 50px;
+    border:1px solid red;
+    overflow: auto;
+}
+
+.shape {
+    height: 30px;
+    width: 100px;
+    /*cursor: move;*/
+    border-radius: 5px;
+    border: 3px solid #2aabd2;
+    padding: 4px;
+    text-align: center;
+}
+
+.shape:hover{
+    border-color: #0f0f0f;
+}
+input{
+    height: 30px;
+    width: 100px;
+    /*cursor: move;*/
+    border-radius: 5px;
+    border: 3px solid #2aabd2;
+    padding: 4px;
+    text-align: center;
+
+}
+
+.cen {
+    height: 50px;
+    width: 150px;
+    /*cursor: move;*/
+    border-radius: 5px;
+    border: 3px solid orange;
+    padding: 4px;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-weight: 500;
+
+}
+
+input:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    background: #c00;
+    content: "";
+    width: 100%;
+    display: block;
+}
+
+
